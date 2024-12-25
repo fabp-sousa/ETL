@@ -26,24 +26,22 @@ This repository contains ETL (Extract, Transform, Load) pipelines designed to de
   - Polars (for faster data processing)
   - PostgreSQL (for relational database storage)
   - Docker (for containerized database setup)
-  - DBever (for database connectivity and exploration)
-  - YAML (for securely managing database credentials)
+  - Database for connectivity and exploration
 - **Key Features**:
-  - **Data Extraction**: Recipe data was extracted from raw files.
+  - **Data Extraction**: Recipe data was extracted from raw files from keggle.
   - **Data Transformation**:
     - High-performance data cleaning and transformation using Polars.
     - Ensured optimized memory usage and faster operations compared to traditional tools like Pandas.
   - **Database Integration**:
     - **Docker Setup**: 
-      - Used Docker to containerize a PostgreSQL instance for development and testing.
-      - Benefits: Simplifies environment configuration, ensures consistency across deployments.
+      - Used Docker to containerize a PostgreSQL instance.
     - **Database Setup**:
       - Designed and created the PostgreSQL database schema.
       - Connected to the database using DBever for monitoring and manual query execution.
     - **Data Loading**:
       - Transformed data was loaded into the PostgreSQL database as relational tables.
   - **Credential Management**:
-    - Utilized a `.yaml` file to securely store database credentials, adhering to security best practices.
+    - Utilized a `.yml` file to securely store database credentials, adhering to security best practices.
 
 ---
 
