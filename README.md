@@ -40,9 +40,6 @@ This repository contains ETL (Extract, Transform, Load) pipelines designed to de
       - Connected to the database using DBever for monitoring and manual query execution.
     - **Data Loading**:
       - Transformed data was loaded into the PostgreSQL database as relational tables.
-  - **Credential Management**:
-    - Utilized a `.yml` file to securely store database credentials, adhering to security best practices.
-
 ---
 
 ### **Setup and Requirements**
@@ -73,7 +70,7 @@ To set up the PostgreSQL container:
    ```
 
 #### **Database Configuration**
-- Update the `.yaml` file with your database credentials.
+- Update the `.yml` file with your database credentials.
 - Use DBever or similar tools to connect to the PostgreSQL instance if needed.
 
 ---
@@ -82,8 +79,8 @@ To set up the PostgreSQL container:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/etl-projects.git
-   cd etl-projects
+   git clone https://github.com/fabp-sousa/ETL.git
+   cd ETL
    ```
 
 2. **Set Up the Environment**:
@@ -112,11 +109,6 @@ To set up the PostgreSQL container:
 
 ---
 ### **Future Enhancements**
-- Add automated testing for ETL pipelines.
-- Implement CI/CD pipelines for data processing workflows.
-- Explore cloud services for hosting and scaling ETL processes.
-
-This repository is continually evolving to include more use cases and advanced data engineering practices. Stay tuned!
 - Add automated testing for ETL pipelines.
 - Implement CI/CD pipelines for data processing workflows.
 - Explore cloud services for hosting and scaling ETL processes.
